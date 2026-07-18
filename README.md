@@ -1,8 +1,8 @@
 # Demo1
-import mysql.connector
+import mysql.connector as a
 
 # Connect to MySQL
-con = mysql.connector.connect(
+con = a.connect(
     host="localhost",
     user="root",
     password="nagabesye",
